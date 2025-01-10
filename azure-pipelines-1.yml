@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  name: TestAgent
 
 steps:
 - script: echo Hello, world!
